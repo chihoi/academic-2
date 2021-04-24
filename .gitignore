@@ -1,8 +1,4 @@
-# IDEs
-.idea/
-
-# Hugo
-resources/
-public/
-themes/academic
 .Rproj.user
+.Rhistory
+.RData
+.Ruserdata

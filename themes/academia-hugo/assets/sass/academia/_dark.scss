@@ -118,17 +118,8 @@ body.dark,
 }
 
 .dark .navbar-light {
-  background: #2d303c !important;
-  box-shadow: 0 0.125rem 0.25rem 0 #22212900;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(255, 255, 255, .11);
   border-color: #070707;
-}
-
-.dark .navbar-brand{
-  color: #fff;
-}
-
-.dark .nav-link{
-  color: #fff !important;
 }
 
 .dark select {
@@ -171,14 +162,6 @@ body.dark,
   color: #fff;
 }
 
-.dark .bg-white{
-  background: #2d303c !important;
-}
-
-.dark .network-icon a:hover {
-  background: #272935;
-}
-
-.dark .home-section:nth-of-type(even) {
-  background-color: #212529 !important;
+.dark .progress-bar{
+  background: #2d303c;
 }
