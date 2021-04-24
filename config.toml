@@ -1,0 +1,116 @@
+baseurl = "http://www.chihoi.com"
+title = "chihoi"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = false
+pygmentscodefencesguesssyntax = false
+
+#disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "chihoi"
+    # description = "chiho's personal website"
+    # keywords = "political science,developer,personal"
+    info = "Ph.D. student"
+    avatarurl = "images/avatar.jpeg"
+    #gravatar = chihoi.com"
+    #footercontent = "Let there be Light"
+
+    dateformat = "January 2, 2006"
+
+    hideFooter = false
+    hideCredits = true
+    hideCopyright = false
+    since = 2021
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    # commit = "https://github.com/luizdepra/hugo-coder/tree/"
+
+    rtl = false
+
+    # Specify light/dark colorscheme
+    # Supported values:
+    # "auto" (use preference set by browser)
+    # "dark" (dark background, light foreground)
+    # "light" (light background, dark foreground) (default)
+    colorscheme = "auto"
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Enable Twemoji
+    enableTwemoji = true
+
+    # Custom CSS
+    custom_css = []
+
+    # Custom JS
+    custom_js = []
+
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/chihoi"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 2
+    url = "https://twitter.com/chihoi"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/chihoi"
+
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+            name = "About"
+            weight = 1
+            url = "about/"
+
+            [[languages.en.menu.main]]
+            name = "Research"
+            weight = 2
+            url = "projects/"
+
+            [[languages.en.menu.main]]
+            name = "Teaching"
+            weight = 3
+            url = "teaching/"
+
+            
+            [[languages.en.menu.main]]
+            name = "Contact"
+            weight = 4
+            url = "contact/"
+
+            [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 5
+            url = "posts/"
+            
+
+
+
+    
